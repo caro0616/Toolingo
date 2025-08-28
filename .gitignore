@@ -1,0 +1,20 @@
+cat > .gitignore << 'EOF'
+# Python / Django
+__pycache__/
+*.py[cod]
+*.sqlite3
+/media/
+staticfiles/
+.env
+
+# Virtualenv
+.venv/
+
+# VSCode / OS
+.vscode/
+.DS_Store
+
+# Node (cuando hagamos frontend)
+node_modules/
+.next/
+EOF
